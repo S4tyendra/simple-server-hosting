@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+tmuxp
+python-multipart
+GitPython
+hypercorn
+dnspython
+requests
+websockets
