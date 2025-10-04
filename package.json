@@ -1,0 +1,22 @@
+{
+  "name": "docker-image-manager",
+  "version": "1.0.0",
+  "description": "Docker Image Manager with GitHub Container Registry integration",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build src/index.ts --outdir ./dist --target bun",
+    "start": "bun run dist/index.js",
+    "type-check": "bun --bun tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^3.12.6",
+    "dockerode": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.23",
+    "bun-types": "latest"
+  },
+  "module": "src/index.ts",
+  "type": "module"
+}
