@@ -4,6 +4,10 @@ A slick web-based dashboard for managing Docker containers pulled from GitHub Co
 
 Perfect for managing your self-hosted infrastructure on IIIT Kota servers (or any Ubuntu/Debian box really).
 
+>
+> [!NOTE]
+>  See [main branch](https://github.com/s4tyendra/simple-server-hosting/tree/main) for non docker and general hosting manager
+
 ---
 > [!WARNING]
 >  This repo is highly customized to use with iiitkota servers and infra structure. if you want to use for your apps, please change domain and folder names.
@@ -235,7 +239,7 @@ Found a bug? Want a feature? PRs are welcome!
 
 ## 📝 License
 
-MIT License - do whatever you want with it!
+MIT License - do whatever you want with it, I'm not even including License file!
 
 ---
 
